@@ -1,43 +1,43 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-07-31T18:23:26.584Z",
+        "start_timestamp": "2022-08-01T08:37:53.186Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat io.appium.java_client.DefaultGenericMobileDriver.\u003cinit\u003e(DefaultGenericMobileDriver.java:37)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:89)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:99)\n\tat io.appium.java_client.android.AndroidDriver.\u003cinit\u003e(AndroidDriver.java:97)\n\tat com.example.app.drivers.AndroidDriverInit.initialize(AndroidDriverInit.java:38)\n\tat com.example.hooks.AndroidDriverHook.beforeScenario(AndroidDriverHook.java:16)\nCaused by: java.lang.reflect.InvocationTargetException\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\n\tat io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat io.appium.java_client.DefaultGenericMobileDriver.\u003cinit\u003e(DefaultGenericMobileDriver.java:37)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:89)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:99)\n\tat io.appium.java_client.android.AndroidDriver.\u003cinit\u003e(AndroidDriver.java:97)\n\tat com.example.app.drivers.AndroidDriverInit.initialize(AndroidDriverInit.java:38)\n\tat com.example.hooks.AndroidDriverHook.beforeScenario(AndroidDriverHook.java:16)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.core.runtime.Runtime.lambda$execute$5(Runtime.java:110)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\n\tat io.cucumber.core.runtime.Runtime.lambda$execute$6(Runtime.java:110)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:233)\n\tat java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)\n\tat io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:86)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n\tat io.cucumber.core.runtime.Runtime.run(Runtime.java:87)\n\tat io.cucumber.core.cli.Main.run(Main.java:92)\n\tat io.cucumber.core.cli.Main.main(Main.java:34)\nCaused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\t... 51 more\n",
-              "duration": 30868984000,
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat io.appium.java_client.DefaultGenericMobileDriver.\u003cinit\u003e(DefaultGenericMobileDriver.java:37)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:89)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:99)\n\tat io.appium.java_client.android.AndroidDriver.\u003cinit\u003e(AndroidDriver.java:97)\n\tat drivers.AndroidDriverInit.initialize(AndroidDriverInit.java:34)\n\tat hooks.AndroidDriverHook.beforeScenario(AndroidDriverHook.java:16)\nCaused by: java.lang.reflect.InvocationTargetException\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\n\tat io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat io.appium.java_client.DefaultGenericMobileDriver.\u003cinit\u003e(DefaultGenericMobileDriver.java:37)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:89)\n\tat io.appium.java_client.AppiumDriver.\u003cinit\u003e(AppiumDriver.java:99)\n\tat io.appium.java_client.android.AndroidDriver.\u003cinit\u003e(AndroidDriver.java:97)\n\tat drivers.AndroidDriverInit.initialize(AndroidDriverInit.java:34)\n\tat hooks.AndroidDriverHook.beforeScenario(AndroidDriverHook.java:16)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)\n\tat io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)\n\tat io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:98)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.core.runtime.Runtime.lambda$execute$5(Runtime.java:110)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\n\tat io.cucumber.core.runtime.Runtime.lambda$execute$6(Runtime.java:110)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:233)\n\tat java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)\n\tat io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:86)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)\n\tat java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n\tat io.cucumber.core.runtime.Runtime.run(Runtime.java:87)\n\tat io.cucumber.core.cli.Main.run(Main.java:92)\n\tat io.cucumber.core.cli.Main.main(Main.java:34)\nCaused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HOL21101496.local\u0027, ip: \u0027fe80:0:0:0:4a7:2207:2c32:5b72%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.4\u0027, java.version: \u002718\u0027\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the \u0027com.tokopedia.tkpd\u0027 application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: \u0027com.tokopedia.tkpd.ConsumerSplashScreen\u0027 or \u0027com.tokopedia.tkpd.com.tokopedia.tkpd.ConsumerSplashScreen\u0027 never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\t... 51 more\n",
+              "duration": 28268460000,
               "status": "failed"
             },
             "match": {
-              "location": "com.example.hooks.AndroidDriverHook.beforeScenario()"
+              "location": "hooks.AndroidDriverHook.beforeScenario()"
             }
           }
         ],
-        "line": 5,
-        "name": "Verify user successfully login when input valid email and password",
+        "line": 6,
+        "name": "User orders medicine",
         "description": "",
-        "id": "login;verify-user-successfully-login-when-input-valid-email-and-password",
+        "id": "user-orders-medicine;user-orders-medicine",
         "after": [
           {
             "result": {
-              "duration": 4250000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.appium.java_client.android.AndroidDriver.quit()\" because \"drivers.AndroidDriverInit.driver\" is null\n\tat drivers.AndroidDriverInit.quit(AndroidDriverInit.java:43)\n\tat hooks.AndroidDriverHook.afterScenario(AndroidDriverHook.java:21)\n",
+              "duration": 1609000,
+              "status": "failed"
             },
             "match": {
-              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
+              "location": "hooks.AndroidDriverHook.afterScenario(io.cucumber.java.Scenario)"
             }
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.appium.java_client.android.AndroidDriver.quit()\" because \"com.example.app.drivers.AndroidDriverInit.driver\" is null\n\tat com.example.app.drivers.AndroidDriverInit.quit(AndroidDriverInit.java:47)\n\tat com.example.hooks.AndroidDriverHook.afterScenario(AndroidDriverHook.java:21)\n",
-              "duration": 938000,
-              "status": "failed"
+              "duration": 5004000,
+              "status": "passed"
             },
             "match": {
-              "location": "com.example.hooks.AndroidDriverHook.afterScenario(io.cucumber.java.Scenario)"
+              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
             }
           }
         ],
@@ -46,33 +46,33 @@
         "steps": [
           {
             "result": {
-              "duration": 389000,
+              "duration": 466000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 457000,
+                  "duration": 702000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
                 }
               }
             ],
-            "line": 6,
-            "name": "user is on login page",
+            "line": 7,
+            "name": "User is on tokopedia homepage",
             "match": {
-              "location": "com.example.steps.LoginPageSteps.userIsOnLoginPage()"
+              "location": "steps.OrderMedicineSteps.userIsOnTokopediaHomepage()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 898000,
+                  "duration": 529000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
                 }
               }
             ],
@@ -80,181 +80,169 @@
           },
           {
             "result": {
-              "duration": 568000,
+              "duration": 456000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 635000,
+                  "duration": 447000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "user input username \"admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.example.steps.LoginPageSteps.userInputUsername(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 832000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 699000,
-              "status": "skipped"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 680000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
                 }
               }
             ],
             "line": 8,
-            "name": "user input password \"admin\"",
+            "name": "User clicks lihat semua menu",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.example.steps.LoginPageSteps.userInputPassword(java.lang.String)"
+              "location": "steps.OrderMedicineSteps.userClicksLihatSemuaMenu()"
             },
             "after": [
-              {
-                "result": {
-                  "duration": 403000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 521000,
-              "status": "skipped"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 551000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
-                }
-              }
-            ],
-            "line": 9,
-            "name": "user click button login",
-            "match": {
-              "location": "com.example.steps.LoginPageSteps.userClickButtonLogin()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1076000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 731000,
-              "status": "skipped"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 549000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "user successfully login",
-            "match": {
-              "location": "com.example.steps.LoginPageSteps.userSuccessfullyLogin()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 719000,
-                  "status": "skipped"
-                },
-                "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 547000,
-              "status": "skipped"
-            },
-            "before": [
               {
                 "result": {
                   "duration": 634000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
                 }
               }
             ],
-            "line": 11,
-            "name": "user go to list menu",
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 766000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 630000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User selects tokopedia sehat",
             "match": {
-              "location": "com.example.steps.NavigationMenuSteps.userGoToListMenu()"
+              "location": "steps.OrderMedicineSteps.userSelectsTokopediaSehat()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 516000,
+                  "duration": 877000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 318000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User selects batuk, flu, demam menu",
+            "match": {
+              "location": "steps.OrderMedicineSteps.userSelectsBatukFluDemamMenu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 304000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 665000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User selects first product",
+            "match": {
+              "location": "steps.OrderMedicineSteps.userSelectsFirstProduct()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 375000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 273000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User clicks beli button",
+            "match": {
+              "location": "steps.OrderMedicineSteps.userClicksBeliButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 313000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
                 }
               }
             ],
@@ -262,42 +250,42 @@
           },
           {
             "result": {
-              "duration": 371000,
+              "duration": 467000,
               "status": "skipped"
             },
             "before": [
               {
                 "result": {
-                  "duration": 429000,
+                  "duration": 413000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.beforeStep()"
+                  "location": "hooks.AndroidDriverHook.beforeStep()"
                 }
               }
             ],
-            "line": 12,
-            "name": "user do scroll",
+            "line": 13,
+            "name": "User is redirected to login page",
             "match": {
-              "location": "com.example.steps.ListPageSteps.userDoScroll()"
+              "location": "steps.OrderMedicineSteps.userIsRedirectedToLoginPage()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 538000,
+                  "duration": 555000,
                   "status": "skipped"
                 },
                 "match": {
-                  "location": "com.example.hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
+                  "location": "hooks.AndroidDriverHook.afterStep(io.cucumber.java.Scenario)"
                 }
               }
             ],
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@medicine"
           },
           {
             "name": "@android"
@@ -311,14 +299,14 @@
         ]
       }
     ],
-    "name": "Login",
+    "name": "User orders medicine",
     "description": "",
-    "id": "login",
+    "id": "user-orders-medicine",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/simpleapp/Login.feature",
+    "uri": "file:src/test/resources/features/simpleapp/orderMedicine.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@medicine",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -330,7 +318,7 @@
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 8
+          "column": 13
         }
       }
     ]

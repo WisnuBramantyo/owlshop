@@ -11,7 +11,7 @@ public class OrderMedicineSteps extends BasePageObject {
     MedicinePage medicinePage = new MedicinePage();
     @Given("^User is on tokopedia homepage$")
     public void userIsOnTokopediaHomepage() {
-
+        System.out.println("HOMEPAGE");
     }
 
     @And("User clicks lihat semua menu")

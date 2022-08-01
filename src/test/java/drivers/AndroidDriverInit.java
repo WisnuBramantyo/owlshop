@@ -1,6 +1,5 @@
 package drivers;
 
-import properties.PropertiesReader;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -19,10 +18,7 @@ public class AndroidDriverInit {
 
   public static void initialize() {
     DesiredCapabilities caps = new DesiredCapabilities();
-    PropertiesReader reader = new PropertiesReader();
-    HashMap<String,String> data = reader.readProperties().getAppiumProperties();
     //lambda - java 8
-    data.forEach((key,value) -> caps.setCapability(key,value));
 
     caps.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
     caps.setCapability(MobileCapabilityType.DEVICE_NAME, "device");
